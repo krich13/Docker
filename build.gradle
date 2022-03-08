@@ -1,0 +1,16 @@
+plugins {
+    id 'java'
+   //id 'org.springframework.boot' version '2.6.4'
+}
+
+group 'ru.netology'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation group: 'org.springframework.boot', name: 'spring-boot-starter-jdbc', version: '2.6.2'
+    implementation group: 'org.springframework.boot', name: 'spring-boot-starter-web', version: '2.6.3'
+}
